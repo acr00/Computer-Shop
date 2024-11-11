@@ -2,6 +2,8 @@ package com.factoriaf5.computershop;
 
 public class Computers {
 
+    
+    private int computerId;
     private String computerBrand;
     private int memorySize;
     private String processor;
@@ -10,7 +12,9 @@ public class Computers {
 
     //Constructor
     
-    public Computers(String computerBrand, int memorySize, String processor, String operativeSystem, double price) {
+    public Computers(int id ,String computerBrand, int memorySize, String processor, String operativeSystem, double price) {
+
+        this.computerId = id;
         this.computerBrand = computerBrand;
         this.memorySize = memorySize;
         this.processor = processor;
@@ -18,7 +22,13 @@ public class Computers {
         this.price = price;
     }
     // Getters and Setters
-
+    
+    public int getComputerId() {
+        return computerId;
+    }
+    public void setComputerId(int computerId) {
+        this.computerId = computerId;
+    }
     public String getComputerBrand() {
         return computerBrand;
     }
@@ -49,5 +59,5 @@ public class Computers {
     public void setPrice(double price) {
         this.price = price;
     }
-    
+
 }
