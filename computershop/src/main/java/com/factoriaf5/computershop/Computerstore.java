@@ -47,7 +47,6 @@ public class Computerstore {
         this.computers = computers;
     }
 
-    //methods
 
     public void addComputer(Computers computer) {
         computers.add(computer);

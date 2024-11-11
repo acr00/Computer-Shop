@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 public class ComputersTests {
     @Test
+    
     void testComputerConstructor() {
 
         int id = 1;
@@ -19,7 +20,7 @@ public class ComputersTests {
         assertEquals(processor, computer.getProcessor());
         assertEquals(os, computer.getOperativeSystem());
         assertEquals(price, computer.getPrice());
-        
+
     }
     @Test
     void testComputerId() {

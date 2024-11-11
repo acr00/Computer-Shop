@@ -10,7 +10,7 @@ public class Computers {
     private String operativeSystem;
     private double price;
 
-    //Constructor
+
     
     public Computers(int id ,String computerBrand, int memorySize, String processor, String operativeSystem, double price) {
 
@@ -25,7 +25,6 @@ public class Computers {
     public Computers() {
         
     }
-    // Getters and Setters
 
     public int getComputerId() {
         return computerId;
