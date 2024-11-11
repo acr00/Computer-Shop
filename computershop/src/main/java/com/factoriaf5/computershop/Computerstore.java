@@ -36,8 +36,14 @@ public class Computerstore {
         this.tributaryId = tributaryId;
     }
 
+    public List<Computers> getComputers() {
+        return computers;
+    }
+    public void setComputers(List<Computers> computers) {
+        this.computers = computers;
+    }
     //methods
-    
+
     public void addComputer(Computers computer) {
         computers.add(computer);
         System.out.println("Computer"+computer.getComputerId()+" added successfully.");
